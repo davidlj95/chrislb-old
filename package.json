@@ -1,0 +1,25 @@
+{
+  "name": "chrislb",
+  "version": "1.0.0",
+  "description": "Phantom by HTML5 UP\r html5up.net | @ajlkn\r Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently 'browser-sync start --server --files *.html,assets/css/*.css' 'livereload .'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidlj95/chrislb.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davidlj95/chrislb/issues"
+  },
+  "homepage": "https://github.com/davidlj95/chrislb#readme",
+  "dependencies": {
+    "browser-sync": "^2.26.7",
+    "concurrently": "^5.1.0",
+    "livereload": "^0.9.1"
+  }
+}
